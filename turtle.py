@@ -11,5 +11,6 @@ for a in range(5):
     yy=random.randint(-200,200)
     turtle.goto(xx,yy)
     turtle.pendown()
+    turtle.color(random.choice(renkler))
     b=random.randint(50,200)
     ciz (random.randint(3,7),b)

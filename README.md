@@ -15,5 +15,5 @@ Hesap makinesini kullanmak için, şu adımları izleyin:
 - İşleme girmek istediğiniz sayıları girin.
 - Sonucu görmek için, enter tuşuna basın.
 
-<img src="https://image.freepik.com/free-vector/cartoon-smiling-electronic-calculator_253349-687.jpg" alt="alt text" width="320" height="180">" alt="alt text" width="320" height="180">
+<img src="https://image.freepik.com/free-vector/cartoon-smiling-electronic-calculator_253349-687.jpg" alt="alt text" width="200" height="180">" alt="alt text" width="320" height="180">
 

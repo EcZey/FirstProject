@@ -26,7 +26,7 @@ def anaMenu():
     menu = input("seçiminizi yapınız: ")
     print("seçtiniz", menu)
     if menu == "1": hesapmakinesi.hesapMakinesi()
-    elif menu == "2": tahminoyunu.sayiTahminOyunu()
+    elif menu == "2": sayitahminoyunu.sayiTahminOyunu()
     elif menu== "3": taskagitmakas.tasKagitMakas()
     elif menu== "4":leapyearcalculator.leapYearCalculator()
     elif menu== "5":tipcalculator.tipCalculator()

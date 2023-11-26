@@ -1,6 +1,6 @@
 import hesapmakinesi
 import sayitahminoyunu
-import taskagitmakas
+import tasmakaskagit
 import leapyearcalculator
 import tipcalculator
 import rollercoaster
@@ -27,7 +27,7 @@ def anaMenu():
     print("seçtiniz", menu)
     if menu == "1": hesapmakinesi.hesapMakinesi()
     elif menu == "2": sayitahminoyunu.sayiTahminOyunu()
-    elif menu== "3": taskagitmakas.tasKagitMakas()
+    elif menu== "3": tasmakaskagit.tasKagitMakas()
     elif menu== "4":leapyearcalculator.leapYearCalculator()
     elif menu== "5":tipcalculator.tipCalculator()
     elif menu== "6":rollercoaster.rollerCoaster()

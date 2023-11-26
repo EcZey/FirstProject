@@ -34,5 +34,5 @@ def anaMenu():
     elif menu== "7":bmicalculator.bmiCalculator()
     elif menu == "8":faktoriyelhesapla.faktoriyelHesaplama()
     elif menu == "9":adamasmaca.adamAsmacaOyunu()
-    else: nothesaplama.notHesaplama()
+    elif menu== "10":nothesaplama.notHesaplama()
 anaMenu()

@@ -1,5 +1,5 @@
 import hesapmakinesi
-import tahminoyunu
+import sayitahminoyunu
 import taskagitmakas
 import leapyearcalculator
 import tipcalculator

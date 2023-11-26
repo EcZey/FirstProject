@@ -7,6 +7,7 @@ import rollercoaster
 import bmicalculator
 import faktoriyelhesapla
 import adamasmaca
+import nothesaplama
 def anaMenu():
     print("\33[1;32;40m")
     print("╔══════════════════════════╗")
@@ -33,4 +34,5 @@ def anaMenu():
     elif menu== "7":bmicalculator.bmiCalculator()
     elif menu == "8":faktoriyelhesapla.faktoriyelHesaplama()
     elif menu == "9":adamasmaca.adamAsmacaOyunu()
+    else: nothesaplama.notHesaplama()
 anaMenu()

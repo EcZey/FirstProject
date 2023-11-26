@@ -5,6 +5,7 @@ import leapyearcalculator
 import tipcalculator
 import rollercoaster
 import bmicalculator
+import faktoriyelhesapla
 def anaMenu():
     print("\33[1;32;40m")
     print("╔══════════════════════════╗")
@@ -29,4 +30,5 @@ def anaMenu():
     elif menu== "5":tipcalculator.tipCalculator()
     elif menu== "6":rollercoaster.rollerCoaster()
     elif menu== "7":bmicalculator.bmiCalculator()
+    elif menu == "8":faktoriyelhesapla.faktoriyelHesaplama()
 anaMenu()

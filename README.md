@@ -4,7 +4,7 @@ Bu proje çeşitli hesap işlemleri ve oyunlar içeren bir uygulamadır. Hesapla
 
 # Hesap Makinesi
 
-Bu proje, basit matematiksel işlemleri yapabilen bir hesap makinesidir. Hesap makinesi, toplama, çıkarma, çarpma, bölme, üs alma, karekök alma, faktöriyel alma, mod alma gibi işlemleri yapabilir. Ayrıca, hesap makinesi, ondalık sayılar, kesirler ve negatif sayılar ile de çalışabilir.
+Bu proje, basit matematiksel işlemleri yapabilen bir hesap makinesidir. Hesap makinesi, toplama, çıkarma, çarpma, bölme gibi işlemleri yapabilir.
 
 ## Kullanım
 

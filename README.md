@@ -15,3 +15,5 @@ Hesap makinesini kullanmak için, şu adımları izleyin:
 - İşleme girmek istediğiniz sayıları girin.
 - Sonucu görmek için, enter tuşuna basın.
 
+<img src="<img src="http://url/to/img.png" alt="alt text" width="320" height="180">" alt="alt text" width="320" height="180">
+

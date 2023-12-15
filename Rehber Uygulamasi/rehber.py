@@ -5,8 +5,8 @@ def menu():
     print("║═════════════════════════════════════║")
     print("║\33[36m   1-)  Rehbere Ekle              \33[0m\33[1;34;40m   ║")
     print("║\33[36m   2-)  Numaraları Listele          \33[0m\33[1;34;40m ║")
-    print("║\33[36m   3-)  Numaraları Düzelt          \33[0m\33[1;34;40m  ║")
-    print("║\33[36m   4-)  Numaraları Sil         \33[0m\33[1;34;40m      ║")
+    print("║\33[36m   3-)  Numaraları Sil             \33[0m\33[1;34;40m  ║")
+    print("║\33[36m   4-)  Numaraları Değiştir         \33[0m\33[1;34;40m ║")
     print("║\33[36m   5-)  Okuma             \33[0m\33[1;34;40m           ║")
     print("║\33[36m   Seçiminizi Giriniz          \33[0m\33[1;34;40m      ║")
     print("╚═════════════════════════════════════╝")
@@ -18,6 +18,9 @@ def menu():
             print("dosya bulunamadı")
     if secim== "2":
         listele()
+
+    if secim== "3":
+        numaraSil()
 
     if secim=="5":
         oku()
@@ -58,6 +61,24 @@ def listele():
     except:
         print("Dosya bulunamadı.")
         print("Devam etmek için enter tuşuna basınız.")
+
+
+def numaraSil():
+    isim = input("Numarasını silmek istediğiniz kişinin ismini giriniz: ")
+    dosya=open("rehber.txt","a+")
+    dosya.seek(0)
+    satirlar=dosya.readlines()
+    rehber=[]
+    for satir in satirlar:
+        kisi=satir.split()
+        rehber.append(kisi)
+    for kisi in rehber:
+        if kisi[0] == isim:
+            rehber.remove(kisi)
+            print("Numara başarıyla silindi.")
+            return # fonksiyondan çık
+    else:
+        print("Rehberde böyle bir isim bulunamadı!")   
 
 
 
